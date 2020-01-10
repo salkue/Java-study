@@ -9,6 +9,7 @@ public class Person {
     }
 
     /**
+     * testtesttest
      * This method checks gender of persons. If genders are not equal - tries to marry.
      * If one of them has another spouse - execute divorce(sets spouse = null for husband and wife. Example: if both persons have spouses - then divorce will set 4 spouse to null) and then executes marry().
      *
