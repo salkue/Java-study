@@ -19,8 +19,8 @@ public class Solution {
         for (int i = 0; i < count; i++) {
             s = scanner.nextLine();
             boolean no = false;
-            for (int j = 0; j < s.length(); j++) {
-                if (containsLetter(glas, s.charAt(j)) & containsLetter(glas, s.charAt(j + 1)) & containsLetter(glas, s.charAt(j + 3)))
+            for (int j = 0; j < s.length() - 2; j++) {
+                if (containsLetter(glas, s.charAt(j)) & containsLetter(glas, s.charAt(j + 1)) & containsLetter(glas, s.charAt(j + 2)))
                     no = true;
             }
             if (!no)
