@@ -9,7 +9,6 @@ public class Person {
     }
 
     /**
-     * testtesttest
      * This method checks gender of persons. If genders are not equal - tries to marry.
      * If one of them has another spouse - execute divorce(sets spouse = null for husband and wife. Example: if both persons have spouses - then divorce will set 4 spouse to null) and then executes marry().
      *
@@ -62,22 +61,21 @@ public class Person {
 
         // свадьбы
         p1.marry(p2);
-        p3.marry(p4);
 
         // развод
-        System.out.format("%s с супругой %s разводятся\n", p1.name, p1.spouse.name);
-        System.out.format("%s с супругом %s разводятся\n", p2.name, p2.spouse.name);
+        System.out.println("муж " + p1.name + " жена " + p1.spouse.name);
+        System.out.println("жена " + p2.name + " муж " + p2.spouse.name);
         p1.divorce();
-        System.out.format("теперь у %s нет жены: %s\n", p1.name, p1.spouse);
-        System.out.format("теперь у %s нет мужа: %s\n\n", p2.name, p2.spouse);
+        System.out.println("имя " + p1.name + " жена " + p1.spouse);
+        System.out.println("имя " + p2.name + " муж " + p2.spouse);
 
         // свадьба с разводом
-        System.out.format("%s с супругой %s\n", p3.name, p3.spouse.name);
-        System.out.format("%s с супругом %s\n", p4.name, p4.spouse.name);
-        System.out.format("%s хочет жиниться на %s\n", p3.name, p5.name);
+        p3.marry(p4);
+        System.out.println("муж " + p3.name + " жена " + p3.spouse.name);
+        System.out.println("жена " + p4.name + " муж " + p4.spouse.name);
         p3.marry(p5);
-        System.out.format("теперь у %s жена - %s\n", p3.name, p3.spouse.name);
-        System.out.format("теперь у %s муж - %s\n", p5.name, p5.spouse.name);
-        System.out.format("а у %s теперь мужа нет: %s\n", p4.name, p4.spouse);
+        System.out.println(p3.name + " жена " + p3.spouse.name);
+        System.out.println(p4.name + " муж "+p4.spouse);
+        System.out.println(p5.name + " муж " + p5.spouse.name);
     }
 }
