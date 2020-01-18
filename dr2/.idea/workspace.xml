@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d669ec-661c-427d-b86d-e712f699639c" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/dr2/Solution$MyComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/dr2/Solution$ReverseInterator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/dr2/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Домашняя работа 3/src/CountMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Домашняя работа 3/src/CountMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Домашняя работа 3/src/CountMapImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Домашняя работа 3/src/CountMapImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Домашняя работа 3/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Домашняя работа 3/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
