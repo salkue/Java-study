@@ -4,8 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Test {
     public static void main(String[] args) throws InterruptedException {
-        ExecutorService executorService= Executors.newFixedThreadPool(2);
-        for (int i=0;i<5;i++)
+        ExecutorService executorService = Executors.newFixedThreadPool(2);
+        for (int i = 0; i < 5; i++)
             executorService.submit(new Work(i));
         executorService.shutdown();
         System.out.println("All tasks submitted");
@@ -27,7 +27,7 @@ class Work implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Work"+id+" was completed");
+        System.out.println("Work" + id + " was completed");
 
     }
 }
